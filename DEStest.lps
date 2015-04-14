@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Count="1" Active="Release">
+      <Item1 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="DEStest"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <MsgFileName Value=""/>
+            </CompilerMessages>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
+        </CompilerOptions>
+      </Item1>
+    </BuildModes>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="DEStest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DEStest"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="19" Y="38"/>
+        <UsageCount Value="57"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\dcpcrypt-2.0.4.1\dcpblockciphers.pas"/>
+        <UnitName Value="DCPblockciphers"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="153"/>
+        <CursorPos X="1" Y="206"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\dcpcrypt-2.0.4.1\dcpcrypt2.pas"/>
+        <UnitName Value="DCPcrypt2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="571"/>
+        <CursorPos X="1" Y="591"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="46" Column="42" TopLine="4"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="25" Column="43" TopLine="4"/>
+      </Position2>
+      <Position3>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="20" Column="7" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="24" Column="72" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="55" Column="1" TopLine="5"/>
+      </Position5>
+      <Position6>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="55" Column="1" TopLine="5"/>
+      </Position6>
+      <Position7>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="55" Column="35" TopLine="5"/>
+      </Position7>
+      <Position8>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="46" Column="18" TopLine="5"/>
+      </Position8>
+      <Position9>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="56" Column="1" TopLine="5"/>
+      </Position9>
+      <Position10>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="55" Column="1" TopLine="5"/>
+      </Position10>
+      <Position11>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="40" Column="3" TopLine="1"/>
+      </Position11>
+      <Position12>
+        <Filename Value="DEStest.lpr"/>
+        <Caret Line="67" Column="27" TopLine="16"/>
+      </Position12>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="6">
+      <Item1>
+        <Expression Value="Size"/>
+      </Item1>
+      <Item2>
+        <Expression Value="CV"/>
+      </Item2>
+      <Item3>
+        <Expression Value="Indata"/>
+      </Item3>
+      <Item4>
+        <Expression Value="Outdata"/>
+      </Item4>
+      <Item5>
+        <Expression Value="Res"/>
+      </Item5>
+      <Item6>
+        <Expression Value="Src"/>
+      </Item6>
+    </Watches>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>
