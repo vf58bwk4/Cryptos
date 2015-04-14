@@ -33,7 +33,7 @@ end;
 
 function Bytes2Str(Bytes: array of Byte): string;
 var
-  I: Cardinal;
+  I: Integer;
 begin
   Result := '';
   for I:=Low(Bytes) to Length(Bytes)-1 do

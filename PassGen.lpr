@@ -11,7 +11,7 @@ uses
 
 procedure GenerateBytes(var Bytes: array of Byte);
 var
-  I: Cardinal;
+  I: Integer;
 begin
   Randomize;
   for I:=0 to Length(Bytes)-1 do
@@ -22,7 +22,7 @@ end;
 
 procedure WriteBytes(Bytes: array of Byte);
 var
-  I: Cardinal;
+  I: Integer;
   S: string;
 begin
   for I:=0 to Length(Bytes)-1 do
