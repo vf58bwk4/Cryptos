@@ -22,14 +22,12 @@ end;
 
 procedure WriteBytes(Bytes: array of Byte);
 var
-  I: Integer;
-  S: string;
+  B: Byte;
+  S: string = '';
 begin
-  for I:=0 to Length(Bytes)-1 do
-  begin
-    S := Format('%.2X',[Bytes[I]]);
-    Write(S);
-  end;
+  for B in Bytes do
+    S := S + Format('%.2X',[B]);
+  Write(S);
 end;
 
 var

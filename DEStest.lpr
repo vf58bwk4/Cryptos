@@ -33,13 +33,11 @@ end;
 
 function Bytes2Str(Bytes: array of Byte): string;
 var
-  I: Integer;
+  B: Byte;
 begin
   Result := '';
-  for I:=Low(Bytes) to Length(Bytes)-1 do
-  begin
-    Result := Result + HexByte(Bytes[I]);
-  end;
+  for B in Bytes do
+    Result := Result + HexByte(B);
 end;
 
 var
