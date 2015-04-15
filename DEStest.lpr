@@ -7,7 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Classes, Sysutils,
-  DCPdes;
+  DCPdes, parrays;
 
 const
   MK2: array [1..16] of Byte =
@@ -47,7 +47,7 @@ begin
   SetLength(Res, Length(Src));
   Cipher := TDCP_3des.Create(nil);
   Cipher.Init(MK2, Length(MK2)*8, @IV);
-  Cipher.EncryptCBC(Src, Res[Low(Res)], Length(Src));
+  Cipher.EncryptCBC(Src, PArray(Res)^, Length(Src));
   Writeln(Bytes2Str(Res));
 end.
 
